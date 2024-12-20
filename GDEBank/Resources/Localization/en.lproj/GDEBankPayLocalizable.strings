@@ -1,0 +1,51 @@
+/* 
+  GDEBankLocalizable.strings
+  GDEBank
+
+  Created by Gleb Kovalenko on 11.07.2024.
+  
+*/
+
+"intro.connect" = "Connect";
+
+"tabs.main" = "Main";
+"tabs.exit" = "Exit";
+
+"intro-qr-code.sub-title" = "Scan the wallet QR code to transfer funds";
+
+// MARK: - Main
+
+"main.navigation-title" = "GDEBank";
+"main.total-balance" = "Total balance";
+"main.transfer-button-title" = "Transfer";
+"main.receive-button-title" = "Receive";
+"main.transfer-history.title" = "Transfer history";
+
+// MARK: - QR Receiving
+
+"qr-receiving.navigation-title" = "Receive";
+"qr-receiving.static-qr-code.tab-name" = "Static qr-code";
+"qr-receiving.dynamic-qr-code.tab-name" = "Dynamic qr-code";
+"qr-receiving.static-qr-code.description" = "Receive transfers to your accounts using this qr-code";
+"qr-receiving.share-button" = "Share";
+"qr-receiving.add-to-wallet-button" = "Add to Wallet";
+"qr-receiving.transfer-data.title" = "Transfer Details";
+"qr-receiving.currency-label" = "Currency";
+"qr-receiving.amount-placeholder" = "Amount";
+"qr-receiving.generate-qr-button-title" = "Generate QR-Code";
+"qr-receiving.dynamic-qr-code.warning" = "This QR code is valid only for this transfer";
+
+// MARK: - TransferIntro
+
+"pay-transfer-intro.title" = "Scan QR";
+"pay-transfer-intro.subtitle" = "Scan the wallet QR code to transfer funds";
+"pay-transfer-intro.scan-button-title" = "Scan QR";
+
+// MARK: - Transfer
+
+"pay-transfer.navigation-title" = "Transfers";
+"pay-transfer.recipient-label" = "Recipient";
+"pay-transfer.amount-label" = "Amount";
+"pay-transfer.insufficient-funds-error" = "Insufficient funds on the account";
+"pay-transfer.currency-label" = "Currency";
+"pay-transfer.transfer-button-title" = "Transfer";

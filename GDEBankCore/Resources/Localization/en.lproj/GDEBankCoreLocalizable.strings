@@ -1,0 +1,432 @@
+/* 
+  Localizable.strings
+  GDEBank
+
+  Created by Gleb Kovalenko on 11.07.2024.
+  
+*/
+
+// MARK: - General
+
+"general.confirm" = "Confirm";
+"general.error" = "Error";
+"general.or" = "Or";
+"general.cancel" = "Cancel";
+"general.settings" = "Settings";
+"general.cannot-obtain-file" = "Can't dowload file";
+"general.required-memo-message" = "We cannot create a translation without a memo. If you are sure that you do not need to specify it for translation, then you can enter any text in the memo field";
+
+// MARK: - Actions
+
+"download" = "Download";
+"apply" = "Apply";
+"balance" = "Balance";
+"done" = "Done";
+
+// MARK: - Auth
+
+"auth.login.navigation-title" = "Log in to your account";
+"auth.registration.navigation-title" = "Registration";
+"auth.first-time-in-app.title" = "First time in GDEBank?";
+"auth.sign-up.title" = "Sign up";
+
+// MARK: - Errors
+
+"errors.email.incorrect-email" = "Incorrect Email";
+"errors.email.incorrect-email-or-password" = "Incorrect Email or password";
+
+"errors.phone.incorrect-phone" = "The number was entered incorrectly";
+"errors.phone.incorrect-phone-or-password" = "Incorrect phone number or password";
+
+"errors.account-statement.no-statement" = "Couldn't get a link to the report";
+"errors.no-qr-code-link" = "Couldn't get a qr code link";
+
+"errors.parse-error" = "Can't get data";
+"errors.general" = "Something went wrong";
+
+// MARK: - LogIn
+
+"log-in.phone" = "Phone";
+"log-in.email" = "Email";
+"log-in.sign-in-button-title" = "Sign in";
+
+// MARK: - EmailEntering
+
+"email-entering.login.email-name" = "Email";
+"email-entering.login.password-name" = "Password";
+"email-entering.login.forgot-password" = "Forgot password?";
+"email-entering.login.sign-in" = "Sign in";
+
+"email-entering.registration.next" = "Next";
+"email-entering.registration.enter-email" = "Enter Email";
+"email-entering.registration.already-registered" = "Already registered?";
+"email-entering.registration.sign-in" = "Sign in";
+"email-entering.registration.support-center" = "Support center";
+
+"email-entering.email-changing.title" = "Enter a new email address";
+"email-entering.email-changing.subtitle" = "We will send a confirmation code to this address";
+"email-entering.email-changing.next" = "Next";
+
+"email-entering.password-restore.title" = "Forgot your password?";
+"email-entering.password-restore.subtitle" = "Enter your email address and we will send you instructions for password recovery";
+"email-entering.password-restore.email-name" = "Email";
+"email-entering.password-restore.password-name" = "Password";
+"email-entering.password-restore.no-access" = "I don't have access to mail";
+"email-entering.password-restore.return-to-login" = "Go back to the login screen";
+"email-entering.password-restore.send" = "Send";
+"email-entering.password-restore.support-center" = "Support center";
+
+// MARK: - PhoneEntering
+
+"phone-entering.login.email-name" = "Phone";
+"phone-entering.login.password-name" = "Password";
+"phone-entering.login.forgot-password" = "Forgot password?";
+"phone-entering.login.sign-in" = "Sign in";
+
+"phone-entering.registration.next" = "Send code";
+"phone-entering.registration.title" = "Enter your phone number";
+"phone-entering.registration.description" = "We will send a confirmation code to this number";
+"phone-entering.registration.already-registered" = "Already registered?";
+"phone-entering.registration.sign-in" = "Sign in";
+"phone-entering.registration.support-center" = "Support Center";
+
+"phone-entering.phone-changing.title" = "Enter a new phone number";
+"phone-entering.phone-changing.subtitle" = "We will send an SMS with a confirmation code to this number";
+"phone-entering.phone-changing.next" = "Next";
+
+"phone-entering.password-restore.title" = "Forgot your password?";
+"phone-entering.password-restore.subtitle" = "Enter your phone number and we will send you an SMS with instructions for password recovery";
+"phone-entering.password-restore.phone-name" = "Phone number";
+"phone-entering.password-restore.no-access" = "I don't have access to my phone";
+"phone-entering.password-restore.return-to-login" = "Go back to the login screen";
+"phone-entering.password-restore.send" = "Send";
+"phone-entering.password-restore.support-button-title" = "Support Center";
+
+"phone-entering.external-sign-in.title" = "Enter your phone number";
+"phone-entering.external-sign-in.subtitle" = "We will send an SMS with a confirmation code to this number";
+"phone-entering.external-sign-in.send" = "Next";
+
+// MARK: - Authorization
+
+"code-confirmation.resend-button.title" = "Get the code again through";
+"code-confirmation.change-phone.title" = "Change phone number";
+"code-confirmation.support-button.title" = "Support Center";
+"code-confirmation.no-receive-code-button.title" = "I didn't get the code";
+"code-confirmation.resend-code.title" = "Get code again";
+"code-confirmation.check-code.error-title" = "Code entered incorrectly";
+"code-confirmation.send-code.error-title" = "Failed to send code";
+"external-sign-in.navigation-title" = "Apple / Google sign in";
+
+// MARK: - PasswordEntering
+
+"password-entering.create-password.title" = "Enter your password";
+"password-entering.create-password.repeat" = "Repeat";
+"password-entering.create-password.requirement-description" = "The password must contain at least 6 letters, including a capital letter, a symbol and a number";
+"password-entering.create-password.action-button-title" = "Register";
+"password-entering.create-password.support-center" = "Support Center";
+
+"password-entering.restore-password.title" = "Enter new password";
+"password-entering.restore-password.repeat" = "Repeat";
+"password-entering.restore-password.requirement-description" = "The password must contain at least 6 letters, including a capital letter, a symbol and a number";
+"password-entering.restore-password.action-button-title" = "Sign in";
+"password-entering.restore-password.support-center" = "Support Center";
+
+"password-entering.passwords-not-equal" = "Passwords don't match";
+"password-entering.passwords-not-match-requirements" = "The password doesn't match the requirements";
+
+// MARK: - PasswordChanging
+
+"change-password.navigation-title" = "Change password";
+"change-password.old-password-title" = "Old password";
+"change-password.new-password-title" = "New password";
+"change-password.confirm-password-title" = "Confirm new password";
+"change-password.change-password-button-text" = "Change password";
+
+// MARK: - Card
+
+"card.block-message" = "The card is blocked! To unlock, contact the support center";
+
+// MARK: - CodeConfirmation
+
+"code-confirmation.phone-registration.title" = "Enter the code from the SMS";
+
+"code-confirmation.email-registration.title" = "Confirm your Email";
+"code-confirmation.email-registration.subtitle" = "We have sent an email to your Email address. Click on the link in the email to confirm the Email.";
+
+"code-confirmation.restore-password.email.title" = "We have sent you an email";
+"code-confirmation.restore-password.email.subtitle" = "To log in, enter the code sent to your email";
+
+"code-confirmation.restore-password.phone.title" = "We have sent you an SMS";
+"code-confirmation.restore-password.phone.subtitle" = "To log in, enter the code sent to your phone";
+
+"code-confirmation.another-device.title" = "We noticed the input from another device";
+"code-confirmation.another-device.subtitle" = "For security, enter the code that was sent to the mail";
+
+"code-confirmation.change-phone.old-number.subtitle" = "To change the phone number, enter the code that we sent to the number %@";
+"code-confirmation.change-phone.new-number.title" = "Enter the code";
+
+"code-confirmation.change-email.old-email.subtitle" = "To change the email address, enter the code that we sent to the address %@";
+"code-confirmation.change-email.new-email.title" = "Enter the code";
+
+"code-confirmation.change-email.navigation-title" = "Change email";
+"code-confirmation.change-phone.navigation-title" = "Change phone Number";
+
+// MARK: - Currency
+
+"currency.usd.wallet-description" = "Dollar";
+"currency.eur.wallet-description" = "Euro";
+"currency.gbp.wallet-description" = "Pound";
+"currency.aed.wallet-description" = "Dirhams";
+"currency.gel.wallet-description" = "Lari";
+"currency.try.wallet-description" = "Lira";
+"currency.usdt.wallet-description" = "Tether";
+"currency.trx.wallet-description"= "TRON";
+"currency.ton.wallet-description"= "TON";
+"currency.eth.wallet-description"= "Ethereum";
+"currency.btc.wallet-description"= "Bitcoin";
+
+"currency.usd.account-title"= "Dollar USD";
+"currency.eur.account-title" = "Euro EUR";
+"currency.gbp.account-title" = "Pound GBR";
+"currency.aed.account-title" = "Dirhams AED";
+"currency.try.account-title" = "Lira TRY";
+"currency.gel.account-title" = "Lari GEL";
+"currency.usdt.account-title" = "Tether USDT";
+"currency.trx.account-title" = "TRX";
+"currency.ton.account-title" = "Ton";
+"currency.eth.account-title" = "Ethereum";
+"currency.btc.account-title" = "Bitcoin";
+
+"currency.usd.localizedName" = "Dollar";
+"currency.eur.localizedName" = "Euro";
+"currency.gbp.localizedName" = "Pound";
+"currency.aed.localizedName" = "Dirham";
+"currency.try.localizedName" = "Lira";
+"currency.gel.localizedName" = "Lari";
+"currency.usdt.localizedName" = "Tether";
+"currency.trx.localizedName" = "TRON";
+"currency.ton.localizedName" = "Toncoin";
+"currency.eth.localizedName" = "TRX";
+"currency.btc.localizedName" = "Bitcoin";
+
+"currency.group.fiat.title" = "Fiat accounts";
+"currency.group.crypto.title" = "Crypto accounts";
+
+// MARK: - PasscodeEntering
+
+"passcode-lock.face-and-touch-id-title" = "Would you like to enable Touch ID or Face ID for entry?";
+"passcode-flow.verification.navigation-title" = "Passcode for entry";
+"passcode-flow.changing.navigation-title" = "Change passcode";
+"passcode-lock.later-button-title" = "Later";
+"passcode-lock.setup-passcode" = "Set passcode";
+"passcode-lock.repeat-passcode" = "Repeat passcode";
+"passcode-lock.enter-old-passcode" = "Enter old passcode";
+"passcode-lock.repeat-new-passcode" = "Repeat new passcode";
+"passcode-lock.come-up-passcode" = "Create a passcode";
+"passcode-lock.enter-passcode" = "Enter passcode";
+"passcode-lock.biometric-evaluation-reason" = "To skip entering the passcode every time";
+
+// MARK: – Plist
+
+"NSFaceIDUsageDescription" = "To skip entering the passcode every time";
+
+// MARK: - DeviceDetailLocalization
+
+"device-detail.title" = "Details";
+"device-detail.info" = "Connect the device and log in without SMS confirmation";
+"device-detail.characteristic.device-name" = "Name";
+"device-detail.characteristic.device-OS" = "Operating system";
+"device-detail.characteristic.connection-date" = "Connected";
+"device-detail.delete-button-title" = "Remove device";
+
+// MARK: - VerificationSuccess
+
+"verification-success.phone.title" = "Your phone number has been changed";
+"verification-success.email.title" = "Your email address has been changed";
+"verification-success.button-title" = "To the main page";
+
+// MARK: - ExternalAuth
+
+"external-auth.apple.button-title" = "Continue with Apple";
+"external-auth.google.button-title" = "Continue with Google";
+
+// MARK: - DeviceList
+
+"device-list.navigation-title" = "Devices";
+"device-list.title" = "Your devices";
+"device-list.subtitle" = "Mark these devices as connected so you can sign in to the app without SMS or verification code";
+"device-list.list-title" = "Connected devices";
+"device-list.item.subtitle" = "Connection date";
+
+// MARK: - SumSub
+
+"sum-sub.error-message" = "Something went wrong.\nPlease try again";
+
+// MARK: - Transaction
+
+"transaction.status.new.name" = "New";
+"transaction.status.success.name" = "Success";
+"transaction.status.pending.name" = "Pending";
+"transaction.status.error.name" = "Error";
+
+"transaction-type.exchange.name" = "Exchange";
+"transaction-type.transfer.name" = "Transfer";
+"transaction-type.payment.name" = "Payment";
+"transaction-type.deposit.name" = "Deposit";
+"transaction-type.fee.name" = "Fee";
+"transaction-type.deposit-сash.name" = "Deposit cash";
+"transaction-type.transfer-сash.name" = "Сash withdrawal";
+"transaction-type.cheque.name" = "Manager Cheque";
+
+// MARK: TransactionList
+
+"transaction-list.empty.title" = "It's empty here for now";
+"transaction-list.empty.subtitle" = "All new transactions in this currency will be reflected here";
+
+// MARK: - HistoryTypeLocalization
+
+"history-type.all.title" = "All history";
+"history-type.transfer.title" = "Transfers";
+"history-type.deposit.title" = "Deposits";
+"history-type.conversion.title" = "Conversion";
+
+// MARK: - DXDialog
+
+"dx-dialog.title.password-changed" = "Password successfully changed";
+"dx-dialog.title.delete-account-confirmation" = "Are you sure you want to delete your account?";
+"dx-dialog.title.access-denied" = "Access denied";
+"dx-dialog.title.login-confirmation" = "Confirm login";
+"dx-dialog.title.successful-transfer" = "Successful transfer";
+"dx-dialog.title.insufficient-funds" = "Insufficient funds for currency exchange";
+"dx-dialog.title.successful-exchange" = "Successful exchange";
+"dx-dialog.title.successful-recharge" = "Successful recharge";
+"dx-dialog.title.block-card-confirmation" = "Are you sure you want to block the card?";
+"dx-dialog.title.card-deleted" = "Card deleted";
+"dx-dialog.title.pin-changed" = "PIN successfully changed";
+"dx-dialog.title.photo-access" = "Allow photo access";
+"dx-dialog.title.email-changed" = "Your email address has been changed";
+"dx-dialog.title.delete-card-confirmation" = "Are you sure you want to delete the card?";
+"dx-dialog.title.logout-confirmation" = "Are you sure you want to logout?";
+"dx-dialog.title.code-changed" = "Code changed";
+"dx-dialog.title.code-saved" = "Code saved";
+"dx-dialog.title.phone-number-changed" = "Your phone number has been changed";
+
+"dx-dialog.button-title.cancel" = "Cancel";
+"dx-dialog.button-title.delete" = "Delete";
+"dx-dialog.button-title.back" = "Back";
+"dx-dialog.button-title.confirm" = "Confirm";
+"dx-dialog.button-title.decline" = "Decline";
+"dx-dialog.button-title.get-receipt" = "Get receipt";
+"dx-dialog.button-title.to-main" = "To main";
+"dx-dialog.button-title.exit" = "Exit";
+"dx-dialog.button-title.block" = "Block";
+"dx-dialog.button-title.allow" = "Allow";
+"dx-dialog.button-title.continue" = "Continue";
+
+// MARK: - WalletRequisites
+
+"wallet-requisites.empty-message" = "The details for the deposit are not available";
+"wallet-requisites.fiat.sepa.title" = "Sepa requisites";
+"wallet-requisites.fiat.swift.title" = "Swift requisites";
+"wallet-requisites.fiat.max-sum-title" = "Maximum amount";
+"wallet-requisites.fiat.min-sum-title" = "Minimum amount";
+"wallet-requisites.fiat.fee-title" = "Fee";
+"wallet-requisites.fiat.beneficiary-title" = "Beneficiary name";
+"wallet-requisites.fiat.wabada-number-title" = "Wabada Number";
+"wallet-requisites.fiat.comment-title" = "Comment";
+
+"wallet-requisites.crypto.network-title" = "Network";
+"wallet-requisites.crypto.wallet-address-title" = "Wallet address";
+"wallet-requisites.crypto.memo-title" = "Memo";
+
+// MARK: - NetworkSelection
+
+"network-selection.title" = "Select network";
+"network-selection.block-approves" = "Block confirmations";
+"network-selection.arrive-time" = "Arrival time %@ min";
+"network-selection.input-min-sum" = "Minimum input amount %@";
+
+/// MARK: - Payment
+
+"payment.deposit.iban.title" = "Issue an invoice";
+"payment.deposit.card.title" = "Replenishment with a card";
+"payment.deposit.crypto.title" = "Replenishment at the wallet address";
+"payment.deposit.cash.title" = "Cash replenishment";
+"payment.transfer.iban.title" = "Transfer by IBAN";
+"payment.transfer.card.title" = "Transfer to card";
+"payment.transfer.crypto.title" = "Transfer crypto";
+"payment.transfer.cash.title" = "Cash withdrawal";
+
+// MARK: - Transaction info
+
+"transaction-info.date-and-time.title" = "Date and time";
+"transaction-info.order-number.title" = "Order number";
+"transaction-info.exchange-number.title" = "Exchange number";
+"transaction-info.recipient.title" = "Recipient";
+"transaction-info.recipient-name.title" = "Recipient name";
+"transaction-info.to-card.title" = "To card";
+"transaction-info.wallet.title" = "Wallet";
+"transaction-info.sender-id.title" = "Sender ID";
+"transaction-info.country.title" = "Country";
+"transaction-info.transaction.title" = "Transaction";
+"transaction-info.recipient-iban.title" = "Recipient IBAN";
+"transaction-info.wallet-number.title" = "Wallet number";
+"transaction-info.currency.title" = "Currency";
+"transaction-info.commission.title" = "Fee";
+"transaction-info.transaction-txt-id.title" = "Transaction TxtId";
+"transaction-info.status.title" = "Status";
+"transaction-info.direction.title" = "Direction";
+"transaction-info.withdrawal-amount.title" = "Withdrawal amount";
+"transaction-info.deposit-amount.title" = "Deposit amount";
+"transaction-info.dpay-sender-user-email.title" = "Sender";
+"transaction-info.dpay-recipient-user-email.title" = "Recipient";
+"transaction-info.address.title" = "Address";
+
+// MARK: - TransactionCheck
+
+"transaction-check.deposit-card.navigation-title" = "Card deposit";
+"transaction-check.transfer-crypto.navigation-title" = "Crypto transfer";
+"transaction-check.transfer-iban.navigation-title" = "SEPA transfer";
+"transaction-check.payment-card.navigation-title" = "Card payment";
+"transaction-check.transfer-card.navigation-title" = "Transfer to card";
+"transaction-check.conversion.navigation-title" = "Conversion";
+"transaction-check.fee.navigation-title" = "Transaction fee";
+"transaction-check.deposit-crypto.navigation-title" = "Crypto deposit";
+"transaction-check.deposit-pay.navigation-title" = "GDEBank deposit";
+"transaction-check.transfer-pay.navigation-title" = "GDEBank transfer";
+"transaction-check.deposit-iban.navigation-title" = "SEPA deposit";
+"transaction-check.deposit-cash.navigation-title" = "Deposit cash";
+"transaction-check.transfer-cash.navigation-title" = "Сash withdrawal";
+"transaction-check.cheque.navigation-title" = "The release of Manager Cheque";
+
+// MARK: - QRScanning
+
+"qr-code.title" = "Scan QR-code";
+"qr-code.instruction" = "Place the QR code in the frame for scanning";
+"qr-scanning.error.no-video-device" = "No video device found";
+"qr-scanning.error.add-video-input" = "Failed to add video input";
+"qr-scanning.error.add-metadata-output" = "Failed to add metadata output";
+"qr-scanning.error.torch-unavailable" = "Torch is not available on this device";
+"qr-scanning.error.toggle-flash" = "Failed to toggle the flash";
+"qr-scanning.error.no-qr-code" = "No QR code detected";
+"qr-scanning.error.unable-to-process-code" = "Unable to process the detected code";
+"qr-scanning.error.empty-qr-code" = "The QR code is empty";
+"qr-scanning.error.failed-image-selection" = "Failed to retrieve the selected image";
+"qr-scanning.error.failed-image-processing" = "Failed to process the image for QR code detection";
+"qr-scanning.error.no-qr-code-in-image" = "No QR code found in the selected image";
+"qr-scanning.error.camera-access-denied-title" = "Camera access denied";
+"qr-scanning.error.camera-access-denied-message" = "Please grant access to the camera in the device settings.";
+"qr-scanning.error.unknown-camera-error" = "Unknown error occurred while accessing the camera";
+
+"cash-operations.badge.cash" = "Cash";
+"cash-operations.badge.cheque" = "Manager Cheque";
+"cash-operations.country" = "Country";
+"cash-operations.office" = "Branch/office";
+"cash-operations.transfer.complete-message" = "Your code for receiving cash";
+"cash-operations.transfer.complete-message-subtitle" = "For more information, contact the support center";
+"cash-operations.deposit.complete-message" = "Your code for receiving cash";
+"cash-operations.deposit.complete-message-subtitle" = "For more information, contact the support center";
+"cash-operations.cheque.complete-message" = "Contact the support center to receive the order";
+"cash-operations.transfer.button-title" = "Continue";
+"cash-operations.cheque.button-title" = "Continue";
+"cash-operations.deposit.button-title" = "Issue";

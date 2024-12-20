@@ -1,0 +1,432 @@
+/* 
+  Localizable.strings
+  GDEBank
+
+  Created by Gleb Kovalenko on 11.07.2024.
+  
+*/
+
+// MARK: - General
+
+"general.confirm" = "Подтвердить";
+"general.error" = "Ошибка";
+"general.or" = "Или";
+"general.cancel" = "Отменить";
+"general.settings" = "Настройки";
+"general.cannot-obtain-file" = "Не удалось загрузить файл";
+"general.required-memo-message" = "Мы не можем создать перевод без memo. Если вы уверены, что для перевода не нужно его указывать, то можете вписать в поле memo любой текст";
+
+// MARK: - Actions
+
+"download" = "Скачать";
+"apply" = "Применить";
+"balance" = "Баланс";
+"done" = "Готово";
+
+// MARK: - Auth
+
+"auth.login.navigation-title" = "Вход в личный кабинет";
+"auth.registration.navigation-title" = "Регистрация";
+"auth.first-time-in-app.title" = "Впервые в GDEBank?";
+"auth.sign-up.title" = "Зарегистрироваться";
+
+// MARK: - Errors
+
+"errors.email.incorrect-email" = "Ошибка ввода Email";
+"errors.email.incorrect-email-or-password" = "Ошибка пароля или Email";
+
+"errors.phone.incorrect-phone" = "Номер введен некорреткно";
+"errors.phone.incorrect-phone-or-password" = "Ошибка пароля или номера телефона";
+
+"errors.account-statement.no-statement" = "Не удалось получить ссылку на отчет";
+"errors.no-qr-code-link" = "Не удалось получить ссылку на qr код";
+
+"errors.parse-error" = "Не удалось получить данные";
+"errors.general" = "Что-то пошло не так";
+
+// MARK: - LogIn
+
+"log-in.phone" = "Телефон";
+"log-in.email" = "Электронная почта";
+"log-in.sign-in-button-title" = "Войти";
+
+// MARK: - EmailEntering
+
+"email-entering.login.email-name" = "Электронная почта";
+"email-entering.login.password-name" = "Пароль";
+"email-entering.login.forgot-password" = "Забыли пароль?";
+"email-entering.login.sign-in" = "Войти";
+
+"email-entering.registration.next" = "Далее";
+"email-entering.registration.enter-email" = "Введите Email";
+"email-entering.registration.already-registered" = "Уже зарегестрированы?";
+"email-entering.registration.sign-in" = "Войти";
+"email-entering.registration.support-center" = "Центр поддержки";
+
+"email-entering.email-changing.title" = "Введите новый адрес электронной почты";
+"email-entering.email-changing.subtitle" = "Мы вышлем код подтверждения на этот адрес";
+"email-entering.email-changing.next" = "Далее";
+
+"email-entering.password-restore.title" = "Забыли пароль?";
+"email-entering.password-restore.subtitle" = "Введите электронную почту и мы отправим на нее инструкцию для восстановления пароля";
+"email-entering.password-restore.email-name" = "Электронная почта";
+"email-entering.password-restore.no-access" = "У меня нет доступа к почте";
+"email-entering.password-restore.return-to-login" = "Вернуться к экрану входа";
+"email-entering.password-restore.send" = "Отправить";
+"email-entering.password-restore.support-center" = "Центр поддержки";
+
+// MARK: - PhoneEntering
+
+"phone-entering.login.email-name" = "Телефон";
+"phone-entering.login.password-name" = "Пароль";
+"phone-entering.login.forgot-password" = "Забыли пароль?";
+"phone-entering.login.sign-in" = "Войти";
+
+"phone-entering.registration.next" = "Отправить код";
+"phone-entering.registration.title" = "Введите номер телефона";
+"phone-entering.registration.description" = "Мы вышлем код подтверждения на этот номер";
+"phone-entering.registration.already-registered" = "Уже зарегестрированы?";
+"phone-entering.registration.sign-in" = "Войти";
+"phone-entering.registration.support-center" = "Центр поддержки";
+
+"phone-entering.phone-changing.title" = "Введите новый номер телефона";
+"phone-entering.phone-changing.subtitle" = "Мы вышлем SMS с кодом подтверждения на этот номер ";
+"email-entering.email-changing.next" = "Далее";
+
+"phone-entering.password-restore.title" = "Забыли пароль?";
+"phone-entering.password-restore.subtitle" = "Введите номер телефона и мы отправим СМС с инструкцией для восстановления пароля";
+"phone-entering.password-restore.phone-name" = "Номер телефона";
+"phone-entering.password-restore.no-access" = "У меня нет доступа к телефону";
+"phone-entering.password-restore.return-to-login" = "Вернуться к экрану входа";
+"phone-entering.password-restore.send" = "Отправить";
+"phone-entering.password-restore.support-button-title" = "Центр поддержки";
+
+"phone-entering.external-sign-in.title" = "Введите ваш номер телефона";
+"phone-entering.external-sign-in.subtitle" = "Мы вышлем SMS с кодом подтверждения на этот номер";
+"phone-entering.external-sign-in.send" = "Продолжить";
+
+// MARK: - Authorization
+
+"code-confirmation.resend-button.title" = "Получить код повторно через";
+"code-confirmation.change-phone.title" = "Изменить телефон";
+"code-confirmation.support-button.title" = "Центр поддержки";
+"code-confirmation.no-receive-code-button.title" = "Я не получил(а) код";
+"code-confirmation.resend-code.title" = "Получить код повторно";
+"code-confirmation.check-code.error-title" = "Код введен некорректно";
+"code-confirmation.send-code.error-title" = "Не удалось отправить код";
+"external-sign-in.navigation-title" = "Вход через Apple / Google";
+ 
+// MARK: - PasswordEntering
+
+"password-entering.create-password.title" = "Введите свой пароль";
+"password-entering.create-password.repeat" = "Повторите";
+"password-entering.create-password.requirement-description" = "Пароль должен содержать не менее 6 букв, включая заглавную, символ и цифру";
+"password-entering.create-password.action-button-title" = "Зарегистрироваться";
+"password-entering.create-password.support-center" = "Центр поддержки";
+
+"password-entering.restore-password.title" = "Введите новый пароль";
+"password-entering.restore-password.repeat" = "Повторите";
+"password-entering.restore-password.requirement-description" = "Пароль должен содержать не менее 6 букв, включая заглавную, символ и цифру";
+"password-entering.restore-password.action-button-title" = "Войти";
+"password-entering.restore-password.support-center" = "Центр поддержки";
+
+"password-entering.passwords-not-equal" = "Пароли не совпадают";
+"password-entering.passwords-not-match-requirements" = "Пароль не соответствует требованиям";
+
+// MARK: - PasswordChanging
+
+"change-password.navigation-title" = "Изменить пароль";
+"change-password.old-password-title" = "Старый пароль";
+"change-password.new-password-title" = "Новый пароль";
+"change-password.confirm-password-title" = "Повторите новый пароль";
+"change-password.change-password-button-text" = "Изменить пароль";
+
+// MARK: - Card
+
+"card.block-message" = "Карта заблокирована! Для разблокировки обратитесь в центр поддержки";
+
+// MARK: - CodeConfirmation
+
+"code-confirmation.phone-registration.title" = "Введите код из SMS";
+
+"code-confirmation.email-registration.title" = "Подтвердите ваш Email";
+"code-confirmation.email-registration.subtitle" = "Мы отправили письмо на ваш Email. Перейдите по ссылке в письме, чтобы подтвердить Email.";
+
+"code-confirmation.restore-password.email.title" = "Мы отправили вам письмо";
+"code-confirmation.restore-password.email.subtitle" = "Для входа введите код, отправленный на электронную почту";
+
+"code-confirmation.restore-password.phone.title" = "Мы отправили вам СМС";
+"code-confirmation.restore-password.phone.subtitle" = "Для входа введите код, отправленный на ваш телефонный номер";
+
+"code-confirmation.another-device.title" = "Мы заметили вход с другого устройства";
+"code-confirmation.another-device.subtitle" = "Для безопасности введите код, который отправлен на почту";
+
+"code-confirmation.change-phone.old-number.subtitle" = "Для изменения номера телефона введите код, который мы отправили на номер %@";
+"code-confirmation.change-phone.new-number.title" = "Введите код";
+
+"code-confirmation.change-email.old-email.subtitle" = "Для изменения электронной почты введите код, который мы отправили на адрес %@";
+"code-confirmation.change-email.new-email.title" = "Введите код";
+
+"code-confirmation.change-email.navigation-title" = "Изменение электронной почты";
+"code-confirmation.change-phone.navigation-title" = "Изменение номера телефона";
+
+// MARK: - Currency
+
+"currency.usd.wallet-description"= "Долларовый";
+"currency.eur.wallet-description"= "Евровый";
+"currency.gbp.wallet-description"= "Фунтовый";
+"currency.aed.wallet-description"= "Дирхам";
+"currency.try.wallet-description" = "Лира";
+"currency.gel.wallet-description"= "Лари";
+"currency.usdt.wallet-description" = "Tether";
+"currency.trx.wallet-description"= "TRON";
+"currency.ton.wallet-description"= "TON";
+"currency.eth.wallet-description"= "Ethereum";
+"currency.btc.wallet-description"= "Bitcoin";
+
+"currency.usd.account-title"= "Доллар USD";
+"currency.eur.account-title" = "Евро EUR";
+"currency.gbp.account-title" = "Фунт GBR";
+"currency.aed.account-title" = "Дирхам AED";
+"currency.try.account-title" = "Лира TRY";
+"currency.gel.account-title" = "Лари GEL";
+"currency.usdt.account-title" = "Tether USDT";
+"currency.trx.account-title" = "TRX";
+"currency.ton.account-title" = "Ton";
+"currency.eth.account-title" = "Ethereum";
+"currency.btc.account-title" = "Bitcoin";
+
+"currency.usd.localizedName" = "Доллар";
+"currency.eur.localizedName" = "Евро";
+"currency.gbp.localizedName" = "Фунт";
+"currency.aed.localizedName" = "Дирхам";
+"currency.try.localizedName" = "Лира";
+"currency.gel.localizedName" = "Лари";
+"currency.usdt.localizedName" = "Тезер";
+"currency.trx.localizedName" = "ТРОН";
+"currency.ton.localizedName" = "Тонкоин";
+"currency.eth.localizedName" = "Эфириум";
+"currency.btc.localizedName" = "Биткоин";
+
+
+"currency.group.fiat.title" = "Фиатные счета";
+"currency.group.crypto.title" = "Крипто счета";
+
+// MARK: - PasscodeEntering
+
+"passcode-flow.verification.navigation-title" = "Код для входа";
+"passcode-flow.changing.navigation-title" = "Смена код-пароля";
+
+"passcode-lock.face-and-touch-id-title" = "Хотите включить Touch ID или Face ID для входа?";
+"passcode-lock.later-button-title" = "Позже";
+"passcode-lock.setup-passcode" = "Установите код-пароль";
+"passcode-lock.repeat-passcode" = "Повторите код";
+"passcode-lock.enter-old-passcode" = "Введите старый код-пароль";
+"passcode-lock.repeat-new-passcode" = "Повторите новый код-пароль";
+"passcode-lock.come-up-passcode" = "Придумайте код";
+"passcode-lock.enter-passcode" = "Введите код-пароль";
+"passcode-lock.biometric-evaluation-reason" = "Чтобы каждый раз не вводить код-пароль";
+
+// MARK: – Plist
+
+"NSFaceIDUsageDescription" = "Чтобы каждый раз не вводить код-пароль";
+
+// MARK: - DeviceDetailLocalization
+
+"device-detail.title" = "Детали";
+"device-detail.info" = "Подключить устройство и входить без SMS подтверждения";
+"device-detail.characteristic.device-name" = "Название";
+"device-detail.characteristic.device-OS" = "Операционная система";
+"device-detail.characteristic.connection-date" = "Подключено";
+"device-detail.delete-button-title" = "Удалить устройство";
+
+// MARK: - VerificationSuccess
+
+"verification-success.phone.title" = "Ваш номер телефона изменен";
+"verification-success.email.title" = "Ваш адрес электронной почты изменен";
+"verification-success.button-title" = "На главную";
+
+// MARK: - ExternalAuth
+
+"external-auth.apple.button-title" = "Продолжить с Apple";
+"external-auth.google.button-title" = "Продолжить с Google";
+
+// MARK: - DeviceList
+
+"device-list.navigation-title" = "Устройства";
+"device-list.title" = "Ваши устройства";
+"device-list.subtitle" = "Отметьте эти устройства как подключенные, тогда вы сможете входить в приложение без SMS или кода подтверждения";
+"device-list.list-title" = "Подключенные устройства";
+"device-list.item.subtitle" = "Дата подключения";
+
+// MARK: - SumSub
+
+"sum-sub.error-message" = "Что-то пошло не так.\nПопробуйте еще раз";
+
+// MARK: - Transaction
+
+"transaction.status.new.name" = "Новый";
+"transaction.status.success.name" = "Успешно";
+"transaction.status.pending.name" = "Ожидает";
+"transaction.status.error.name" = "Ошибка";
+
+"transaction-type.exchange.name" = "Конвертация";
+"transaction-type.transfer.name" = "Перевод";
+"transaction-type.payment.name" = "Оплата";
+"transaction-type.deposit.name" = "Депозит";
+"transaction-type.fee.name" = "Комиссия";
+"transaction-type.deposit-сash.name" = "Пополнение наличными";
+"transaction-type.transfer-сash.name" = "Выдача наличных";
+"transaction-type.cheque.name" = "Manager Cheque";
+
+// MARK: - TransactionList
+
+"transaction-list.empty.title" = "Здесь пока пусто";
+"transaction-list.empty.subtitle" = "Все новые транзакции в этой валюте будут отражены здесь";
+
+// MARK: - HistoryTypeLocalization
+
+"history-type.all.title" = "Вся история";
+"history-type.transfer.title" = "Переводы";
+"history-type.deposit.title" = "Пополнения";
+"history-type.conversion.title" = "Конвертация";
+
+// MARK: - DXDialog
+
+"dx-dialog.title.password-changed" = "Пароль успешно изменён";
+"dx-dialog.title.delete-account-confirmation" = "Вы уверены, что хотите удалить аккаунт?";
+"dx-dialog.title.access-denied" = "Доступ не разрешён";
+"dx-dialog.title.login-confirmation" = "Подтвердите вход";
+"dx-dialog.title.successful-transfer" = "Успешный перевод";
+"dx-dialog.title.insufficient-funds" = "У вас недостаточно средств для обмена в этой валюте";
+"dx-dialog.title.successful-exchange" = "Успешный обмен";
+"dx-dialog.title.successful-recharge" = "Успешное пополнение";
+"dx-dialog.title.block-card-confirmation" = "Вы действительно хотите заблокировать карту?";
+"dx-dialog.title.card-deleted" = "Карта удалена";
+"dx-dialog.title.pin-changed" = "ПИН-код успешно изменён";
+"dx-dialog.title.photo-access" = "Разрешите доступ к фото";
+"dx-dialog.title.email-changed" = "Ваш адрес электронной почты изменён";
+"dx-dialog.title.delete-card-confirmation" = "Вы действительно хотите удалить карту?";
+"dx-dialog.title.logout-confirmation" = "Вы действительно хотите выйти?";
+"dx-dialog.title.code-changed" = "Код изменён";
+"dx-dialog.title.code-saved" = "Код сохранен";
+"dx-dialog.title.phone-number-changed" = "Ваш номер телефона изменён";
+
+"dx-dialog.button-title.cancel" = "Отменить";
+"dx-dialog.button-title.delete" = "Удалить";
+"dx-dialog.button-title.back" = "Назад";
+"dx-dialog.button-title.confirm" = "Подтвердить";
+"dx-dialog.button-title.decline" = "Отклонить";
+"dx-dialog.button-title.get-receipt" = "Получить чек";
+"dx-dialog.button-title.to-main" = "На главную";
+"dx-dialog.button-title.exit" = "Выход";
+"dx-dialog.button-title.block" = "Заблокировать";
+"dx-dialog.button-title.allow" = "Разрешить";
+"dx-dialog.button-title.continue" = "Продолжить";
+
+// MARK: - WalletRequisites
+
+"wallet-requisites.empty-message" = "Реквизиты для пополнений недоступны";
+"wallet-requisites.fiat.sepa.title" = "Реквизиты Sepa";
+"wallet-requisites.fiat.swift.title" = "Реквизиты Swift";
+"wallet-requisites.fiat.max-sum-title" = "Максимальная сумма";
+"wallet-requisites.fiat.min-sum-title" = "Минимальная сумма";
+"wallet-requisites.fiat.fee-title" = "Комиссия";
+"wallet-requisites.fiat.beneficiary-title" = "Наименование получателя";
+"wallet-requisites.fiat.wabada-number-title" = "Wabada Number";
+"wallet-requisites.fiat.comment-title" = "Комментарий";
+
+"wallet-requisites.crypto.network-title" = "Сеть";
+"wallet-requisites.crypto.wallet-address-title" = "Адрес кошелька";
+"wallet-requisites.crypto.memo-title" = "Memo";
+
+// MARK: - NetworkSelection
+
+"network-selection.title" = "Выберите сеть";
+"network-selection.block-approves" = "Подтверждений блоков";
+"network-selection.arrive-time" = "Время поступления %@ мин";
+"network-selection.input-min-sum" = "Минимальная сумма ввода %@";
+
+/// MARK: - Payment
+
+"payment.deposit.iban.title" = "Выставить инвойс";
+"payment.deposit.card.title" = "Пополнение с помощью карты";
+"payment.deposit.crypto.title" = "Пополнение по адресу кошелька";
+"payment.deposit.cash.title" = "Пополнение наличными";
+"payment.transfer.iban.title" = "Перевести по IBAN";
+"payment.transfer.card.title" = "Перевод на карту";
+"payment.transfer.crypto.title" = "Перевод криптовалюты";
+"payment.transfer.cash.title" = "Выдача наличных";
+
+// MARK: - TransactionInfo
+
+"transaction-info.date-and-time.title" = "Дата и время";
+"transaction-info.order-number.title" = "Номер заказа";
+"transaction-info.exchange-number.title" = "Номер обмена";
+"transaction-info.recipient.title" = "Кому";
+"transaction-info.recipient-name.title" = "Имя получателя";
+"transaction-info.to-card.title" = "На карту";
+"transaction-info.wallet.title" = "Кошелек";
+"transaction-info.sender-id.title" = "ID отправителя";
+"transaction-info.country.title" = "Страна";
+"transaction-info.transaction.title" = "Транзакция";
+"transaction-info.recipient-iban.title" = "IBAN получателя";
+"transaction-info.wallet-number.title" = "Номер кошелька";
+"transaction-info.currency.title" = "Валюта";
+"transaction-info.commission.title" = "Комиссия";
+"transaction-info.transaction-txt-id.title" = "TxtId транзакции";
+"transaction-info.status.title" = "Статус";
+"transaction-info.direction.title" = "Направление";
+"transaction-info.withdrawal-amount.title" = "Сумма списания";
+"transaction-info.deposit-amount.title" = "Сумма пополнения";
+"transaction-info.dpay-sender-user-email.title" = "Отправитель";
+"transaction-info.dpay-recipient-user-email.title" = "Получатель";
+"transaction-info.address.title" = "Адрес";
+
+// MARK: - TransactionCheck
+
+"transaction-check.deposit-card.navigation-title" = "Пополнение карты";
+"transaction-check.transfer-crypto.navigation-title" = "Перевод криптовалюты";
+"transaction-check.transfer-iban.navigation-title" = "Перевод SEPA";
+"transaction-check.payment-card.navigation-title" = "Перевод на карту";
+"transaction-check.transfer-card.navigation-title" = "Перевод на карту";
+"transaction-check.conversion.navigation-title" = "Конвертация";
+"transaction-check.fee.navigation-title" = "Комиссия по транзакции";
+"transaction-check.deposit-crypto.navigation-title" = "Пополненение криптовалюты";
+"transaction-check.deposit-pay.navigation-title" = "Пополнение GDEBank";
+"transaction-check.transfer-pay.navigation-title" = "Перевод GDEBank";
+"transaction-check.deposit-iban.navigation-title" = "Пополнение SEPA";
+"transaction-check.deposit-cash.navigation-title" = "Пополнение наличными";
+"transaction-check.transfer-cash.navigation-title" = "Выдача наличных";
+"transaction-check.cheque.navigation-title" = "Выпуск Manager Cheque";
+
+// MARK: - QRScanning
+
+"qr-code.title" = "Сканировать QR-код";
+"qr-code.instruction" = "Поместите QR-код в рамку для сканирования";
+"qr-scanning.error.no-video-device" = "Устройство для записи видео не найдено";
+"qr-scanning.error.add-video-input" = "Не удалось добавить видеоввод";
+"qr-scanning.error.add-metadata-output" = "Не удалось добавить выход метаданных";
+"qr-scanning.error.torch-unavailable" = "Фонарик недоступен на этом устройстве";
+"qr-scanning.error.toggle-flash" = "Не удалось включить/выключить фонарик";
+"qr-scanning.error.no-qr-code" = "QR-код не найден";
+"qr-scanning.error.unable-to-process-code" = "Не удалось обработать код";
+"qr-scanning.error.empty-qr-code" = "QR-код пуст";
+"qr-scanning.error.failed-image-selection" = "Не удалось получить выбранное изображение";
+"qr-scanning.error.failed-image-processing" = "Не удалось обработать изображение для сканирования QR-кода";
+"qr-scanning.error.no-qr-code-in-image" = "QR-код не найден в выбранном изображении";
+
+// MARK: - CashOperations
+
+"cash-operations.badge.cash" = "Наличные";
+"cash-operations.badge.cheque" = "Manager Cheque";
+"cash-operations.country" = "Страна";
+"cash-operations.office" = "Отделение/офис";
+"cash-operations.transfer.complete-message" = "Ваш код для получения наличных";
+"cash-operations.transfer.complete-message-subtitle" = "Для дополнительной информации свяжитесь с центром поддержки";
+"cash-operations.deposit.complete-message" = "Ваш код для получения наличных";
+"cash-operations.deposit.complete-message-subtitle" = "Для дополнительной информации свяжитесь с центром поддержки";
+"cash-operations.cheque.complete-message" = "Свяжитесь с центром поддержки для получения заказа";
+"cash-operations.transfer.button-title" = "Продолжить";
+"cash-operations.cheque.button-title" = "Продолжить";
+"cash-operations.deposit.button-title" = "Выдать";

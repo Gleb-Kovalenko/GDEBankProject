@@ -1,0 +1,38 @@
+strings:
+  inputs: Localization/en.lproj
+  outputs:
+    - templatePath: ../../SwiftGen/gdeBank-strings.stencil
+      output: Localization/Localization.swift
+      params:
+        publicAccess: true
+xcassets:
+  - inputs: Colors/Colors.xcassets
+    outputs:
+      - templateName: swift5
+        output: Colors/Colors.swift
+        params:
+          enumName: Colors
+          publicAccess: true
+  - inputs: Images/Assets.xcassets
+    outputs:
+      - templateName: swift5
+        output: Images/Assets.swift
+        params:
+          enumName: Assets
+          publicAccess: true
+fonts:
+  inputs: Fonts
+  outputs:
+    templateName: swift5
+    output: Fonts/Fonts.swift
+    params:
+        enumName: SGFontFamily
+        fontAliasName: FontTypeAlias
+        publicAccess: true
+plist:
+  inputs: Plists
+  outputs:
+    templateName: runtime-swift5
+    output: Plists/Plist.swift
+    params:
+        publicAccess: true

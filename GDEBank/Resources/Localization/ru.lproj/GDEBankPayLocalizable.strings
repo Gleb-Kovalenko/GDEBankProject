@@ -1,0 +1,52 @@
+/* 
+  GDEBankLocalizable.strings
+  GDEBank
+
+  Created by Gleb Kovalenko on 11.07.2024.
+  
+*/
+
+"intro.connect" = "Подключить";
+
+"tabs.main" = "Главная";
+"tabs.exit" = "Выход";
+
+"intro-qr-code.sub-title" = "Отсканируйте QR-код кошелька для перевода средств";
+
+// MARK: - Main
+
+"main.navigation-title" = "GDEBank";
+"main.total-balance" = "Общий баланс";
+"main.transfer-button-title" = "Перевести";
+"main.receive-button-title" = "Получить";
+"main.transfer-history.title" = "История переводов";
+
+// MARK: - QR Receiving
+
+"qr-receiving.navigation-title" = "Получить";
+"qr-receiving.static-qr-code.tab-name" = "Статический qr-код";
+"qr-receiving.dynamic-qr-code.tab-name" = "Динамический qr-код";
+"qr-receiving.static-qr-code.description" = "Получайте переводы на ваши счета с помощью этого qr-кода";
+"qr-receiving.share-button" = "Поделиться";
+"qr-receiving.add-to-wallet-button" = "Добавить в кошелек";
+"qr-receiving.transfer-data.title" = "Данные перевода";
+"qr-receiving.currency-label" = "Валюта";
+"qr-receiving.amount-placeholder" = "Сумма";
+"qr-receiving.generate-qr-button-title" = "Сгенерировать QR-код";
+"qr-receiving.dynamic-qr-code.warning" = "Этот QR-код действителен только для данного перевода";
+
+// MARK: - TransferIntro
+
+"pay-transfer-intro.title" = "Сканировать QR";
+"pay-transfer-intro.subtitle" = "Отсканируйте QR-код кошелька для перевода средств";
+"pay-transfer-intro.scan-button-title" = "Сканировать QR";
+
+// MARK: - Transfer
+
+"pay-transfer.navigation-title" = "Переводы";
+"pay-transfer.recipient-label" = "Получатель";
+"pay-transfer.amount-label" = "Сумма";
+"pay-transfer.insufficient-funds-error" = "Недостаточно средств на счёте";
+"pay-transfer.currency-label" = "Валюта";
+"pay-transfer.transfer-button-title" = "Перевести";
+

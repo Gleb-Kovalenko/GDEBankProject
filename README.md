@@ -1,1 +1,1 @@
-# GDEBankProject
+# gDEBank-ios
